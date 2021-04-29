@@ -60,13 +60,14 @@
           launch deals.
         </p>
 
-        <form action="" method="post">
+        <form action="#" method="post" id="form">
           <div class="input__container">
             <input
               type="email"
               name="email"
               id="email"
               placeholder="Email Address"
+              required
             />
 
             <img
@@ -78,6 +79,7 @@
             <button type="submit" id="form-submit">
               <img src="./images/icon-arrow.svg" alt="Submit button" />
             </button>
+            <small id="error-message">Error Message</small>
           </div>
         </form>
       </div>
