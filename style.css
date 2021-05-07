@@ -121,12 +121,13 @@ body {
     grid-template-rows: 10rem auto;
     background-image: url('./images/bg-pattern-desktop.svg');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 100%;
     background-position: bottom left;
   }
 
   .image__container {
     grid-area: 1/2/3/3;
+    max-height: 100vh;
   }
 
   #mobile-image {
